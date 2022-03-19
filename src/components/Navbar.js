@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          M-World
         </a>
 
         <ul className="navbar-nav me-auto">
