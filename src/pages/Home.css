@@ -6,7 +6,7 @@
   /* width: 600px; */
   /* max-width: 85vw; */
   /* height: 50vh; */
-  border-radius: 20px;
+  border-radius: 5px;
   background-size: cover;
   background-position: center;
   /* box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3); */
@@ -14,8 +14,10 @@
 
 .card h3 {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
+  margin: 5px;
   color: white;
+  font-size: 14px;
 }
 
 .tinderCards__cardContainer {
