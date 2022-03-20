@@ -2,6 +2,8 @@ import React from 'react';
 import TinderCard from 'react-tinder-card';
 import './Home.css';
 
+import app from './firebase';
+
 const Home = () => {
   const images = [
     'https://firebasestorage.googleapis.com/v0/b/memes-world-9d360.appspot.com/o/5064a47c-b32f-4945-8d16-138eed3f3cc4.jpg?alt=media&token=cc94169f-71c8-4a57-9d66-49e5ed824e05',
@@ -34,7 +36,10 @@ const Home = () => {
             onCardLeftScreen={() => outOfFrame(index)}
           >
             <div className="memes-card">
-              <div className="memes-card-image" style={{ backgroundImage: `url(${image})` }}></div>
+              <div
+                className="memes-card-image"
+                style={{ backgroundImage: `url(${image})` }}
+              ></div>
               <h3>Meme Number {index}</h3>
             </div>
           </TinderCard>
